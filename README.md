@@ -13,12 +13,9 @@ I have styled the page to match the formatting and design of the landing page I 
 ## Link to Deployed Site
 
 
-## Screenshots of Deployed Site
+## Screenshot of Deployed Site
 
-![screenshot1](assets/images/Screenshot1.png)
-![screenshot2](assets/images/Screenshot2.png)
-![screenshot3](assets/images/Screenshot3.png)
-![screenshot4](assets/images/Screenshot4.png)
+![screenshot1](main/assets/images/Screenshot1.png)
 
 
 ## Licence
