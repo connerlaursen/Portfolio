@@ -53,7 +53,7 @@ nav a:hover {
 /*  I chose a pretty UW picture to use as the hero image. */
 .hero{
 background:var(--silver);
-background-image: url("../images/uw-quad-f.jpeg"), linear-gradient(180deg, var(--black) 0%, var(--black) 100%);
+background-image: url("./Main/assets/images/uw-quad-f.jpeg"), linear-gradient(180deg, var(--black) 0%, var(--black) 100%);
 background-size: cover;
 background-position: center;
 background-blend-mode: soft-light;
@@ -180,7 +180,7 @@ p {
   background-size: 115%;
   transition: all 0.5s;
   font-size: 1rem;
-  background-image: url("../images/aerial-uw.jpeg");
+  background-image: url("./Main/assets/images/aerial-uw.jpeg");
 }
 
 /* I originally had the three project boxes all the same size because I thought it looked better, but I made the last two smaller
@@ -201,7 +201,7 @@ because that is what the acceptance criteria asked for. */
   background-size: 115%;
   transition: all 0.5s;
   font-size: 1rem;
-  background-image: url("../images/aerial-uw.jpeg");
+  background-image: url("./Main/assets/images/aerial-uw.jpeg");
 }
 
 
