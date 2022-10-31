@@ -23,6 +23,8 @@ https://connerlaursen.github.io/Portfolio/
 <img src= "main/assets/images/Screenshot4.png" width="200" >
 
 
+I have tried multiple ways of linking the screenshots as required, using multiple different types of syntax including the syntax provided but I keep getting error code 404 when I try to open them up. The screenshots are located in the images folder, but I cannot get them to actually post in here too.
+
 ## Licence
 
 MIT license, listed on GitHub.
