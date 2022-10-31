@@ -12,6 +12,8 @@ I have styled the page to match the formatting and design of the landing page I 
 
 ## Link to Deployed Site
 
+https://connerlaursen.github.io/Portfolio/
+
 
 ## Screenshot of Deployed Site
 
