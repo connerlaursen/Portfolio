@@ -15,7 +15,10 @@ I have styled the page to match the formatting and design of the landing page I 
 
 ## Screenshot of Deployed Site
 
-![screenshot1](main/assets/images/Screenshot1.png)
+<img src= "main/assets/images/Screenshot1.png" width="200" >
+<img src= "main/assets/images/Screenshot2.png" width="200" >
+<img src= "main/assets/images/Screenshot3.png" width="200" >
+<img src= "main/assets/images/Screenshot4.png" width="200" >
 
 
 ## Licence
