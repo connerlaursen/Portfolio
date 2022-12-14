@@ -180,7 +180,8 @@ p {
   background-size: 115%;
   transition: all 0.5s;
   font-size: 1rem;
-  background-image: url("Main/assets/images/aerial-uw.jpeg");
+  background-image: url("Main/assets/images/50425337706_e4479c2396_o.jpg");
+  background-size: cover;
 }
 
 /* I originally had the three project boxes all the same size because I thought it looked better, but I made the last two smaller
