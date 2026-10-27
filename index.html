@@ -1,118 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  
-  <!--linked a universal reset sheet above before the styles sheet -->
-  <!-- below is the title and anchor points for navigation from the links at the top of the page -->
-  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conner Laursen is a developer and operations professional building websites and practical digital tools.">
+  <meta name="theme-color" content="#f5f4eb">
+  <meta property="og:title" content="Conner Laursen — Developer & problem solver">
+  <meta property="og:description" content="Web development, software projects, and practical problem solving.">
+  <meta property="og:type" content="website">
+  <title>Conner Laursen — Developer & problem solver</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<!-- my header section follows a similar design as my landing page. I really enjoyed the hovering animation shown in the example.
-    I decided to incorporate this hovering effect in my portfolio, but went further and blended the underline into
-    gold border to create a really cool effect.-->
 <body>
-  <header>
-    <nav class="center">
-      <ul>
-        <li> <a href="#about-me">About Me</a></li>
-        <li> <a href="#projects">Projects</a></li>
-        <li> <a href="#contact-me">Contact Me</a></li>
-        <li> <a href="#resume">Resume</a></li>
-      </ul>
-    </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Conner Laursen, home"><span class="brand-mark">C.</span><span>Conner Laursen</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+        <a class="nav-resume" href="assets/conner-laursen-resume.pdf" target="_blank" rel="noopener">Resume <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
   </header>
-<!-- I added a hero banner, similar to the example provided with a picture of UW as the showcased image.
-My name is also on the hero banner to show who's portfolio a potential recruiter is looking at. -->
-  <section class="hero">
-      <div>
-        <h1>Conner Laursen</h1>
+  <main id="main">
+    <section class="hero shell" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Developer &amp; former operations leader</p>
+        <h1>Nice to meet you.<br><em>I’m Conner.</em></h1>
+        <p class="hero-intro">My background brings together software development, work with small businesses, and years of leading customer-facing teams.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></div>
       </div>
-</section>
+      <div class="hero-aside" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-center"><span>BASED IN</span><b>Bothell,<br>Washington</b><span>THE PACIFIC NORTHWEST</span></div><div class="orbit-cross">✳</div>
+      </div>
 
-<main class="main-wrap">
-<!-- This section is the about me part where I briefly describe who I am and where I've come from. -->
-  <section class="sections" id="about-me">
-      <h1>About Me</h1>
-      <div>
-        <p class="sections">
-          Thriving in a current supervisor role as the Moorage and Office Supervisor at Port of Edmonds.
-          I have a diverse background in different leadership roles in my 5+ years of professional experience. 
-        </p>
-        <p class="sections">
-          I have a Bachelor of Science degree from the University of Washington in Oceanography. It is a quantitative science degree with a strong emphasis on large scale projects and data analysis.
-          I am current enrolled in the University of Washington Coding Bootcamp further my education and transition into a technology career. 
-          My projects created while in bootcamp are showcased below.
-        </p>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="shell">
+        <div class="section-heading"><div><h2>A few things<br><em>I’ve worked on.</em></h2></div><p>Here are two recent websites I’ve worked on, each built around the needs of the people who use it.</p></div>
+        <div class="project-list">
+          <article class="project project-featured">
+            <div class="project-art sunflower-art"><img src="assets/celtic.png" alt="The Celtic Sunflower website home page" loading="lazy"></div>
+            <div class="project-content"><div class="project-meta"><span>2026</span></div><h3>The Celtic<br> Sunflower</h3><p>A website for an independent gift shop in Ocean Shores, with a dashboard that lets the owner update store hours and announcements.</p><div class="tags"><span>React</span><span>Next.js</span><span>TypeScript</span><span>Cloudflare D1</span></div><div class="project-links"><a href="https://www.thecelticsunflower.com/" target="_blank" rel="noopener">Visit website ↗</a><a href="https://github.com/connerlaursen/celtic-sunflower" target="_blank" rel="noopener">View code ↗</a></div></div>
+          </article>
+          <article class="project project-reverse">
+            <div class="project-art palm-art"><img src="assets/palm.png" alt="Palmhouse Indian Wells website home page" loading="lazy"></div>
+            <div class="project-content"><div class="project-meta"><span>2026</span></div><h3>Palmhouse<br> Indian Wells</h3><p>A vacation rental website with a photo gallery, live availability, local recommendations, and a private editor for updating content.</p><div class="tags"><span>Next.js</span><span>TypeScript</span><span>Cloudflare D1</span></div><div class="project-links"><a href="https://www.indianwells.us/" target="_blank" rel="noopener">Visit website ↗</a><a href="https://github.com/connerlaursen/palmhouse-indian-wells" target="_blank" rel="noopener">View code ↗</a></div></div>
+          </article>
+        </div>
+        <div class="more-work"><p>More projects are on GitHub.</p><a class="text-link" href="https://github.com/connerlaursen" target="_blank" rel="noopener">Explore GitHub <span aria-hidden="true">↗</span></a></div>
       </div>
     </section>
 
-    <!-- I have chosen to go with 3 major projects to showcase with a similar button layout as the example.
-    The difference is that sizing, hovering effects, background picture and button layout are all unique.
-    I have 3 projects labelled as a placeholders for when the projects are eventually compeleted through the bootcamp -->
-      <section class="main-section" id="projects">
-        <h1>Projects</h1>
-        <div class="flex-container">
-  
-          <a href="https://wasmulb.github.io/RecGrabber/" class="flex-item">
-            <div>
-              <h3>Project 1</h3>
-              <span>RecGrabber</span>
-            </div>
-          </a>
-      </div>
-      </section>
+    <section class="about section" id="about"><div class="shell about-grid"><div><h2>A little about<br><em>how I got here.</em></h2></div><div class="about-copy"><p class="about-lead">I enjoy figuring out how things work and finding ways to make them better.</p><p>My background combines software development with years of customer-facing operations and team leadership. At the Port of Edmonds, I built reporting tools and improved workflows for the marina team. I’ve also worked directly with small businesses to build websites that fit what they need.</p><p>I hold a graduate certificate in Software Design &amp; Development and a certificate in Full-Stack Web Development from the University of Washington, along with a B.S. in Oceanography.</p><a class="text-link" href="assets/conner-laursen-resume.pdf" target="_blank" rel="noopener">Read my resume <span aria-hidden="true">↗</span></a></div></div><div class="shell skills"><span>WHAT I WORK WITH</span><p>JavaScript <i> / </i> TypeScript <i> / </i> React <i> / </i> Next.js <i> / </i> Node.js <i> / </i> SQL <i> / </i> Git <i> / </i> <span class="skill-term">Excel &amp; Power Query</span></p></div></section>
 
-      <section class="main-section" id="projects">
-        <div class="flex-container">
-  
-          <a href="blind-booking.herokuapp.com" class="flex-item2">
-            <div>
-              <h3>Project 2</h3>
-              <span>Blind-Booking</span>
-            </div>
-          </a>
-      </div>
-      </section>
-
-      <section class="main-section" id="projects">
-        <div class="flex-container">
-  
-          <a href="#placeholder" class="flex-item2">
-            <div>
-              <h3>Project 3</h3>
-              <span>Placeholder</span>
-            </div>
-          </a>
-      </div>
-      </section>
-<!-- following a similar layout as the example, I have a contact me section at the base of the webpage. It seems that this is pretty standard.
-      I changed the layout, and link functionality for my section. -->
-      <section class="main-section contact" id="contact-me">
-        <h1>Contact Me</h1>
-          <div>
-          <address>
-            <a href="tel:+14253192626">425.319.2626</a>
-            <a href="mailto:connerlaursenk@gmail.com">connerlaursenk@gmail.com</a>
-            <a href="https://github.com/connerlaursen">GitHub</a>
-            <a href="https://www.linkedin.com/in/connerlaursenk/">LinkedIn</a>
-          </address>
-        </div>
-      </section>
-
-        <img id="selfimage" src="./Main/assets/images/image-self2.png" alt="A picture of Conner">
-        </img>
-
-      <section>
-      </section>
-
-<!-- similar footer as my landing page, showcasing UW colors. -->
-    <footer class="center">
-      Have a great day! 😊 
-    </footer>
-
-</main>
-
+    <section class="contact section" id="contact"><div class="shell contact-grid"><div><h2>Let’s<br><em>talk.</em></h2><p>If you have a role, project, or idea you’d like to talk about, feel free to reach out.</p><a class="button button-light" href="mailto:connerlaursenk@gmail.com">Say hello <span aria-hidden="true">↗</span></a></div><div class="contact-side"><span>FIND ME ELSEWHERE</span><a href="https://github.com/connerlaursen" target="_blank" rel="noopener">GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/connerlaursen/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a><a href="assets/conner-laursen-resume.pdf" target="_blank" rel="noopener">Resume <span>↗</span></a></div></div></section>
+  </main>
+  <footer><div class="shell footer-inner"><span>© 2026 CONNER LAURSEN</span><span>BASED IN THE PACIFIC NORTHWEST</span><a href="#top">BACK TO TOP ↑</a></div></footer>
 </body>
-
 </html>

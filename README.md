@@ -1,27 +1,15 @@
-# Challenge-2
+# Conner Laursen — portfolio
 
-## Description
+A responsive, static portfolio for Conner Laursen, featuring selected projects, background, contact links, and a downloadable resume.
 
-This is the second challenge assignment due on 11/3/22.
+## Preview locally
 
-## Usage
+From this directory, run `python3 -m http.server 8000` and open `http://localhost:8000/Portfolio/` if serving from the parent directory, or `http://localhost:8000/` if serving from this directory. No build step is required.
 
-The develop index.html code was created in order to provide myself with portfolio page to showcase the projects we will be creating throughout the bootcamp. Since there are 3 major projects, I have made 3 placeholder link boxes that will bring a hiring manager or recruiter to the projects.
+## Update content
 
-I have styled the page to match the formatting and design of the landing page I created during the week 1 mini project.
+Edit `index.html` for project descriptions and links, and `styles.css` for the visual design. Replace `assets/conner-laursen-resume.pdf` when the resume changes. The project images are screenshots of the public websites.
 
-## Link to Deployed Site
+## Deployment
 
-https://connerlaursen.github.io/Portfolio/
-
-
-## Screenshot of Deployed Site
-
-<img src= "main/assets/images/Screenshot1.png" width="200" >
-<img src= "main/assets/images/Screenshot2.png" width="200" >
-<img src= "main/assets/images/Screenshot3.png" width="200" >
-<img src= "main/assets/images/Screenshot4.png" width="200" >
-
-## Licence
-
-MIT license, listed on GitHub.
+GitHub Pages serves the repository's `main` branch at <https://connerlaursen.github.io/Portfolio/>. Changes merged to `main` appear there after the Pages build completes.
